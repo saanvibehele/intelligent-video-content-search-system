@@ -1,1 +1,9 @@
 static/
+.DS_Store
+frame_data1.csv
+test.ipynb
+data2.pkl
+data_lsi_model_mm
+data_lsi_model_mm.index
+data_tfidf_model_mm
+data_tfidf_model_mm.index

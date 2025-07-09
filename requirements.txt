@@ -1,0 +1,10 @@
+Flask==2.3.3
+Pillow==10.4.0
+PyYAML==6.0.1
+torch==2.3.1
+ultralytics==8.2.63
+transformers==4.43.1
+opencv-python==4.10.0.84
+spacy==3.7.5
+gensim==4.3.3
+pandas==2.0.3

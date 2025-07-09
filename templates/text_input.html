@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Text Input and Video</title>
+</head>
+<body>
+    <h1>Provide Additional Information</h1>
+    <p>{{ message }}</p>
+    <video width="640" height="480" controls>
+        <source src="{{ url_for('static', filename='videos/' + filename) }}" type="video/webm">
+        <!-- <source src="{{ url_for('static', filename='videos/' + filename) }}" type="video/avi"> -->
+        Your browser does not support the video tag.
+    </video>
+    <form action="/submit_text" method="post">
+        <label for="text_input">Enter your text:</label>
+        <input type="text" id="text_input" name="text_input" required>
+        <input type="hidden" name="filename" value="{{ filename }}">
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
