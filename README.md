@@ -84,7 +84,7 @@ Visit `http://127.0.0.1:5000` to access the interface or make search queries.
 
 ---
 
-## 🐳 Run with Docker (Optional)
+## Run with Docker (Optional)
 
 Build and run the Docker container:
 
@@ -95,7 +95,7 @@ docker run -p 5000:5000 intelligent-video-content-search-system
 
 ---
 
-## 📌 Notes
+## Notes
 
 - Ensure `ffmpeg` is installed if you're processing videos into frames using OpenCV.
 
