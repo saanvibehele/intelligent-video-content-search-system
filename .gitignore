@@ -7,3 +7,4 @@ data_lsi_model_mm
 data_lsi_model_mm.index
 data_tfidf_model_mm
 data_tfidf_model_mm.index
+yolov8s-world.pt
